@@ -58,8 +58,9 @@
             padding: 20px;
         }
         .gallery img {
-            width: 100%;
-            height: auto;
+            width: 100%; /* Ensure images occupy 100% of parent container */
+            height: auto; /* Maintain aspect ratio */
+            max-width: 200px; /* Limit maximum width of images */
             border-radius: 5px;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
         }
