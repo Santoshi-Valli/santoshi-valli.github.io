@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo Website</title>
+    <title>Gallery</title>
     <style>
         /* Basic CSS for styling the menu */
         body {
@@ -37,18 +37,43 @@
      <a href="#about">About Me</a>
      <a href="publications.html">Publications</a>
     <a href="gallery.html">Gallery</a>
-    <a href="resume.html">Resume</a>
+   <!-- <a href="resume.html">Resume</a>
     <a href="blogs.html">Blogs</a>
     <a href="contact.html">Contact Me</a>   -->
 </nav>
 
 <!-- Sections for each menu item -->
-<section id="about">
-    <h2>About Me</h2>
-<p>This is where you would include information about yourself.</p>
-    <!-- Your about me content goes here -->
-</section>
+<style>
+        /* Basic CSS for styling the gallery */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 10px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
 
+<h1>Gallery</h1>
+
+<div class="gallery">
+    <!-- Placeholder images -->
+    <img src="images/pexels-pixabay-53141" alt="Image of Rose">
+
+</div>
 
 </body>
 </html>
