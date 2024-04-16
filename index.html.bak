@@ -1,7 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Website</title>
+    <style>
+        /* Basic CSS for styling the menu */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<nav>
+    <!-- Menu links -->
+    <a href="about">About Me</a>
+    <a href="publications.html">Publications</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="resume.html">Resume</a>
+    <a href="blogs.html">Blogs</a>
+    <a href="contact.html">Contact Me</a>
+</nav>
+
+<!-- Sections for each menu item -->
+<section id="about">
+    <h2>About Me</h2>
+<p>This is where you would include information about yourself.</p>
+    <!-- Your about me content goes here -->
+</section>
+
+
 </body>
 </html>
