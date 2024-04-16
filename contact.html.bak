@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BLogs</title>
+    <title>Resume</title>
     <style>
         /* Basic CSS for styling the menu */
         body {
@@ -44,8 +44,8 @@
 
 <!-- Sections for each menu item -->
 <section id="about">
-    <h2>Blogs</h2>
-<p>asfavxyz</p>
+    <h2>Contact me at</h2>
+<p>phone</p>
     <!-- Your about me content goes here -->
 </section>
 
