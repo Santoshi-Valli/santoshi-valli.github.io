@@ -28,6 +28,33 @@
         nav a:hover {
             background-color: #555;
         }
+		.tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .tab {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            margin-right: 10px;
+            border-radius: 5px 5px 0 0;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .tab:last-child {
+            margin-right: 0;
+        }
+
+        .tab:hover {
+            background-color: #0056b3;
+        }
+
+        .active {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
